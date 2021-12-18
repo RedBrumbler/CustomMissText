@@ -6,7 +6,9 @@
     "id": "CustomMissText",
     "version": "0.1.0",
     "url": null,
-    "additionalData": {}
+    "additionalData": {
+      "overrideSoName": "libcustommisstext.so"
+    }
   },
   "dependencies": [
     {
@@ -35,6 +37,11 @@
     },
     {
       "id": "config-utils",
+      "versionRange": "*",
+      "additionalData": {}
+    },
+    {
+      "id": "modloader",
       "versionRange": "*",
       "additionalData": {}
     }

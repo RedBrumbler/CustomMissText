@@ -47,3 +47,9 @@ ndkpath.txt
 extern/
 Android.mk.backup
 qpm.shared.json
+build/
+mod.json
+qpm_defines.cmake
+extern.cmake
+!CMakeLists.txt
+*.qmod
